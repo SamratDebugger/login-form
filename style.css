@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 200px auto;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(5 px);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.common {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  border-radius: 40px;
+  border: 1px solid black;
+  padding: 20px;
+  width: 100%;
+}
+.common input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.login-btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid black;
+  outline: none;
+  background-color: transparent;
+}
+:hover.login-btn {
+  background-color: black;
+  color: white;
+}
+p {
+  margin: 10px 0;
+  text-align: center;
+}
